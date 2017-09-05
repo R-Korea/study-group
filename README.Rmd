@@ -17,8 +17,8 @@ R Korea 스터디 그룹 구성
   - 9월 12일 이후: 케이스코어링     
   - 내용: R 기초 -> 머신러닝 -> (이후는?)     
   - 교재: 후보     
-    - [R programming for data science](https://leanpub.com/rprogramming)
-    - [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
+    1. [R programming for data science](https://leanpub.com/rprogramming)
+    1. [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
     - [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
   - 진도:     
     - 1주차 : github 레포 만들기 및 스터디 소개     
@@ -34,6 +34,11 @@ R Korea 스터디 그룹 구성
     - 12주차: 17장     
     - 13주차: 18장     
     - 14주차: 19장     
+
+1. 교재선택
+1. 조 구성
+1. 
+
 
 ### [강남](https://github.com/R-Korea/study-gruop/tree/master/ISLR/gangnam/sep-2017)
   - 일시: 목요일, 7시30분 ~ 10시, 9월 한 달 정도 토즈에서 진행     

@@ -29,6 +29,10 @@ R Korea Study Group R Korea 스터디 그룹 구성
     -   13주차: 18장
     -   14주차: 19장
 
+1.  교재선택
+2.  조 구성
+3.  
+
 ### [강남](https://github.com/R-Korea/study-gruop/tree/master/ISLR/gangnam/sep-2017)
 
 -   일시: 목요일, 7시30분 ~ 10시, 9월 한 달 정도 토즈에서 진행

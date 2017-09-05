@@ -1,0 +1,41 @@
+---
+title: "1주차 내용"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+https://github.com/mrchypark/study-gruop
+
+
+### 도서 결정
+[Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
+
+### 발표 결정
+
+- 2주차: 2장 - 
+- 3주차: 3장 - 
+- 4주차: 4장 - 
+- 5주차: 5장 - 
+- 6주차: 6장 - 
+- 7주차: 7장 - 
+- 8주차: 8장 - 
+- 9주차: 9장 - 
+- 10주차: 10장 - 
+- 11주차: 11장 - 
+- 12주차: 12장 - 
+- 13주차: 13장 - 
+- 14주차: 14장 - 
+- 15주차: 15장 - 
+
+### 스터디를 위한 내용
+
+1. [R 설치](https://www.r-project.org/)
+
+1. [R studio 설치](https://www.rstudio.com/)
+
+1. Rmarkdown
+
+1. github
