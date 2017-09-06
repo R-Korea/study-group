@@ -13,8 +13,8 @@ R Korea 스터디 그룹 구성
 ### [홍대](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/hongdae/sep-2017)
   - 일시: 화요일, 7시 30분 ~ 10시          
   - 리딩: 박찬엽(mrchypark@gmail.com)      
-  - 9월 5일: IT조선 연결지성센터      
-  - 9월 12일 이후: 케이스코어링     
+  - 9월 5일 / 9월 12일: IT조선 연결지성센터      
+  - 9월 12일 이후: 미정     
   - 내용: R 기초 -> 머신러닝 -> (이후는?)     
   - 교재: 후보     
     1. [R programming for data science](https://leanpub.com/rprogramming)
