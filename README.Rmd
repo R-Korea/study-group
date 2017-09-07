@@ -10,34 +10,16 @@ knitr::opts_chunk$set(echo = TRUE)
 R Korea Study Group
 R Korea 스터디 그룹 구성
 
-### [홍대](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/hongdae/sep-2017)
+### [강북](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/gangbuk/sep-2017)
   - 일시: 화요일, 7시 30분 ~ 10시          
   - 리딩: 박찬엽(mrchypark@gmail.com)      
   - 9월 5일 / 9월 12일: IT조선 연결지성센터      
   - 9월 12일 이후: 미정     
   - 내용: R 기초 -> 머신러닝 -> (이후는?)     
-  - 교재: 후보     
-    1. [R programming for data science](https://leanpub.com/rprogramming)
+  - 교재:
     1. [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
     - [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
-  - 진도:     
-    - 1주차 : github 레포 만들기 및 스터디 소개     
-    - 2주차 : 5장     
-    - 3주차:  6장     
-    - 4주차 ~ 5주차: 7장 ~ 9장, 17장     
-    - 6주차: 10장     
-    - 7주차: 11장 ~ 12장     
-    - 8주차: 13장     
-    - 9주차: 14장     
-    - 10주차: 15장     
-    - 11주차: 16장     
-    - 12주차: 17장     
-    - 13주차: 18장     
-    - 14주차: 19장     
-
-1. 교재선택
-1. 조 구성
-1. 
+  - 진도 : [보러가기](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/gangbuk/sep-2017)
 
 
 ### [강남](https://github.com/R-Korea/study-gruop/tree/master/ISLR/gangnam/sep-2017)
