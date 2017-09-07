@@ -7,8 +7,8 @@ R Korea Study Group R Korea 스터디 그룹 구성
 
 -   일시: 화요일, 7시 30분 ~ 10시
 -   리딩: 박찬엽(<mrchypark@gmail.com>)
--   9월 5일: IT조선 연결지성센터
--   9월 12일 이후: 케이스코어링
+-   9월 5일 / 9월 12일: IT조선 연결지성센터
+-   9월 12일 이후: 미정
 -   내용: R 기초 -&gt; 머신러닝 -&gt; (이후는?)
 -   교재:
     1.  [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)

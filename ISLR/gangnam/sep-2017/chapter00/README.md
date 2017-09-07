@@ -1,16 +1,14 @@
 1주차 내용
 ================
 
-<https://github.com/mrchypark/study-gruop>
-
 ### 도서 결정
 
 [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
 
 ### 발표 결정
 
--   2주차: 2장 -
--   3주차: 3장 -
+-   2주차: 2장 - 남혜정
+-   3주차: 3장 - 노찬형, 이후선 (예정)
 -   4주차: 4장 - 최규선
 -   5주차: 5장 - 류창균
 -   6주차: 6장 - 원치환
