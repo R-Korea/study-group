@@ -1,4 +1,4 @@
-study-gruop
+study-group
 ================
 
 R Korea Study Group R Korea 스터디 그룹 구성
