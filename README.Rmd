@@ -6,7 +6,7 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+test 
 R Korea Study Group
 R Korea 스터디 그룹 구성
 
