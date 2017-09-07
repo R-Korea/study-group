@@ -1,4 +1,4 @@
-study-group
+study-gruop
 ================
 
 R Korea Study Group R Korea 스터디 그룹 구성
@@ -12,9 +12,7 @@ R Korea Study Group R Korea 스터디 그룹 구성
 -   내용: R 기초 -&gt; 머신러닝 -&gt; (이후는?)
 -   교재:
     1.  [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
-
-    -   [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
-
+    2.  [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
 -   진도 : [보러가기](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/gangbuk/sep-2017)
 
 ### [강남](https://github.com/R-Korea/study-gruop/tree/master/ISLR/gangnam/sep-2017)

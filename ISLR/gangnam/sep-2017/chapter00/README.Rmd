@@ -1,5 +1,3 @@
-
-
 ---
 title: "1주차 내용"
 output: github_document
