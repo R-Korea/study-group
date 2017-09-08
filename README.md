@@ -3,21 +3,19 @@ study-group
 
 R Korea Study Group R Korea 스터디 그룹 구성
 
-### [강북](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/gangbuk/sep-2017)
+### [강북](https://github.com/R-Korea/study-group/tree/master/doitR/gangbuk/sep-2017)
 
 -   일시: 화요일, 7시 30분 ~ 10시
 -   리딩: 박찬엽(<mrchypark@gmail.com>)
--   9월 5일: IT조선 연결지성센터
--   9월 12일 이후: 케이스코어링
+-   9월 5일 / 9월 12일: IT조선 연결지성센터
+-   9월 12일 이후: 미정
 -   내용: R 기초 -&gt; 머신러닝 -&gt; (이후는?)
 -   교재:
     1.  [Do it! 쉽게 배우는 R 데이터 분석](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791187370949)
+    2.  [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
+-   진도 : [보러가기](https://github.com/R-Korea/study-group/tree/master/doitR/gangbuk/sep-2017/chapter00)
 
-    -   [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
-
--   진도 : [보러가기](https://github.com/R-Korea/study-gruop/tree/master/r4ds-basic/gangbuk/sep-2017)
-
-### [강남](https://github.com/R-Korea/study-gruop/tree/master/ISLR/gangnam/sep-2017)
+### [강남](https://github.com/R-Korea/study-group/tree/master/ISLR/gangnam/sep-2017)
 
 -   일시: 목요일, 7시30분 ~ 10시, 9월 한 달 정도 토즈에서 진행
 -   리딩: 안효준 <loveactualry@gmail.com>
