@@ -36,6 +36,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - 박성화 - 
 - 박찬엽 - <https://github.com/mrchypark/>
 - 서승우 - 
+- 성상모 - <https://github.com/eyejoy/>
 - 양대진 - 
 - 원치환 - 
 - 윤희철 - 
