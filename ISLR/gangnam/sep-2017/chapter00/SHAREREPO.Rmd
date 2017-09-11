@@ -7,7 +7,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1. 각자의 깃헙 주소를 공유해 주세요. 
+1. 각자의 깃헙 주소를 공유해 주세요.      
     1. <https://github.com/mrchypark/study-group> 이 주소에 간다.    
     1. FORK를 수행한다.
     1. 각자의 계정에 해당하는 주소(` https://github.com/계정주소/study-group`)를 이용해서 r project를 만든다.
