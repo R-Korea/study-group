@@ -42,5 +42,5 @@ Github 주소
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
--   노찬형 - <https://github.com/pemakr>
+-   노찬형 - <https://github.com/pemakr/>
 -   김정희 - <https://github.com/icomaya/>
