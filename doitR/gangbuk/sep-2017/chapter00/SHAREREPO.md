@@ -29,7 +29,7 @@ Github 주소
 -   박성아 - <https://github.com/Seongah-Park/>
 -   박성화 -
 -   박찬엽 - <https://github.com/mrchypark/>
--   서승우 -
+-   서승우 - <https://github.com/steveseo75/>
 -   성상모 - <https://github.com/eyejoy/>
 -   양대진 -
 -   원치환 -
