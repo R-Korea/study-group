@@ -2,7 +2,7 @@
 ================
 
 1.  각자의 깃헙 주소를 공유해 주세요.
-    1.  <https://github.com/mrchypark/study-group> 이 주소에 간다.
+    1.  <https://github.com/R-Korea/study-group> 이 주소에 간다.
     2.  FORK를 수행한다.
     3.  각자의 계정에 해당하는 주소(`https://github.com/계정주소/study-group`)를 이용해서 r project를 만든다.
     4.  ./study-gruop/r4ds-basic/gangbuk/sep-2017 폴더로 이동한다.
