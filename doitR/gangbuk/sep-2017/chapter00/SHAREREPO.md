@@ -43,4 +43,4 @@ Github 주소
 -   조민혁 -
 -   최규선 -
 -   노찬형 - <https://github.com/pemakr/>
--   김정희 - <https://github.com/icomaya/>
+-   김정희 - <https://github.com/icomaya/>    
