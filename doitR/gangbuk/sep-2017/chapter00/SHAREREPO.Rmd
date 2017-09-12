@@ -42,6 +42,6 @@ knitr::opts_chunk$set(echo = TRUE)
 - 윤희철 - 
 - 전성윤 - 
 - 정원식 - <https://github.com/1Chic/>
-- 조민혁 - 
+- 조민혁 - <https://github.com/mhjoe/>
 - 최규선 -    
 - 허현무 - https://github.com/vofmwk
