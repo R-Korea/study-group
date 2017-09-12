@@ -1,5 +1,4 @@
 깃헙주소 공유
-
 ================
 
 1.  각자의 깃헙 주소를 공유해 주세요.
@@ -24,7 +23,7 @@
 -   김지현 - <https://github.com/Jiehyunkim/>
 -   노진선 -
 -   류창균 -
--   박광용 -
+-   박광용 - <https://github.com/npv-park/>
 -   박다솜 -
 -   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
