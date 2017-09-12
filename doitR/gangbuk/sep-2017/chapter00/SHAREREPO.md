@@ -32,9 +32,13 @@
 -   서승우 -
 -   성상모 - <https://github.com/eyejoy/>
 -   양대진 -
+-   원치환 -
+-   윤희철 -
+-   전성윤 - <https://github.com/esmejeon>
+-   정원식 -
 -   원치환 - <https://github.com/CHWON-KR/>
 -   윤희철 - <https://github.com/hihi9008/>
--   전성윤 -
+-   전성윤 - <https://github.com/esmejeon>
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
