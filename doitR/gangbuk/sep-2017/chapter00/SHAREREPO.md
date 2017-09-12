@@ -1,4 +1,4 @@
-깃헙주소 공유
+깃헙주소 공유--김지현
 ================
 
 1.  각자의 깃헙 주소를 공유해 주세요.
@@ -38,7 +38,7 @@ Github 주소
 -   전성윤 - <https://github.com/esmejeon/>
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 - <https://github.com/mhjoe/>
--   최규선 -
+-   최규선 - <https://github.com/Gschoi/>
 -   남혜정 - <http://github.com/ringonam/>
 -   허현무 - <https://github.com/vofmwk>
 -   노찬형 - <https://github.com/pemakr/>

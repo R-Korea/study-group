@@ -47,5 +47,5 @@ knitr::opts_chunk$set(echo = TRUE)
 - 조민혁 - <https://github.com/mhjoe/>
 - 최규선 - <https://github.com/Gschoi/>    
 - 남혜정 - <http://github.com/ringonam/>
-- 허현무 - https://github.com/vofmwk
+- 허현무 - <https://github.com/vofmwk>
 
