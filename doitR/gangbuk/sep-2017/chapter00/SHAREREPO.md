@@ -38,4 +38,3 @@
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
--   김정희 - <https://github.com/icomaya/>
