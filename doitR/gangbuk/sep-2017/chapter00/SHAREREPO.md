@@ -25,16 +25,22 @@
 -   류창균 -
 -   박광용 -
 -   박다솜 -
--   박대훈 -
+-   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
 -   박성화 -
 -   박찬엽 - <https://github.com/mrchypark/>
 -   서승우 -
 -   성상모 - <https://github.com/eyejoy/>
 -   양대진 -
--   원치환 -
--   윤희철 -
--   전성윤 -
+-   원치환 - <https://github.com/CHWON-KR/>
+-   윤희철 - <https://github.com/hihi9008/>
+-   전성윤 - &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 -   정원식 -
 -   조민혁 -
--   최규선 - <https://github.com/Gschoi/222>
+-   최규선 - <https://github.com/Gschoi/>
+    =====================================
+
+-   정원식 - <https://github.com/1Chic/>
+-   조민혁 - <https://github.com/mhjoe/>
+-   최규선 - <https://github.com/Gschoi/>
+-   남혜정 - <http://github.com/ringonam/>
