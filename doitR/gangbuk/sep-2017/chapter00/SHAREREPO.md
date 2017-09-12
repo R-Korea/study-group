@@ -37,4 +37,4 @@
 -   전성윤 -
 -   정원식 -
 -   조민혁 -
--   최규선 - <https://github.com/Gschoi/>
+-   최규선 - <https://github.com/Gschoi/test>
