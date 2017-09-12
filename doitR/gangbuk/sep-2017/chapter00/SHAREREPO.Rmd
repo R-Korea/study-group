@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - 노진선 - 
 - 류창균 - 
 - 박광용 - 
-- 박다솜 - 
+- 박다솜 - <https://github.com/Dasom-Park/>
 - 박대훈 - <https://github.com/Daehoon-Park/>
 - 박성아 - 
 - 박성화 - 
