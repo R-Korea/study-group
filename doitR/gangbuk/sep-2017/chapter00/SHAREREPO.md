@@ -25,7 +25,7 @@
 -   류창균 -
 -   박광용 -
 -   박다솜 -
--   박대훈 -
+-   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
 -   박성화 -
 -   박찬엽 - <https://github.com/mrchypark/>
@@ -34,7 +34,16 @@
 -   양대진 -
 -   원치환 -
 -   윤희철 -
--   전성윤 -
+-   전성윤 - <https://github.com/esmejeon>
 -   정원식 -
+-   원치환 - <https://github.com/CHWON-KR/>
+-   윤희철 - <https://github.com/hihi9008/>
+-   전성윤 - <https://github.com/esmejeon>
+-   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
+<<<<<<< HEAD
 -   최규선 - <https://github.com/Gschoi/222>
+=======
+-   최규선 -
+-   김정희 - <https://github.com/icomaya/>
+>>>>>>> f4bf731695d6d8b4f1b93fb635cc935aa90c6300
