@@ -39,3 +39,4 @@
 -   조민혁 -
 -   최규선 -
 -   정우준 - <https://github.com/whitelog>
+- 김정희 - <https://github.com/icomaya>
