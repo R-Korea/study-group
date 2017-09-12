@@ -25,7 +25,7 @@
 -   류창균 -
 -   박광용 - <https://github.com/npv-park/>
 -   박다솜 -
--   박대훈 -
+-   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
 -   박성화 -
 -   박찬엽 - <https://github.com/mrchypark/>
@@ -34,8 +34,12 @@
 -   양대진 -
 -   원치환 -
 -   윤희철 -
--   전성윤 -
+-   전성윤 - <https://github.com/esmejeon>
 -   정원식 -
+-   원치환 - <https://github.com/CHWON-KR/>
+-   윤희철 - <https://github.com/hihi9008/>
+-   전성윤 - <https://github.com/esmejeon>
+-   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
--   test - &lt;hhttp: test&gt;
+-   김정희 - <https://github.com/icomaya/>
