@@ -41,8 +41,5 @@
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 - <https://github.com/mhjoe/>
 -   최규선 - <https://github.com/Gschoi/>
--   남혜정 - <http://github.com/ringonam/> &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+-   남혜정 - <http://github.com/ringonam/>
 -   허현무 - <https://github.com/vofmwk>
-    ====================================
-
--   허현무 - <https://github.com/vofmwk> &gt;&gt;&gt;&gt;&gt;&gt;&gt; 896393e2d5f5b1bd40e1e9952913fc1feb412bee
