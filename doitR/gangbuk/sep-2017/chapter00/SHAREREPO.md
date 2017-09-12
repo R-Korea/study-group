@@ -1,4 +1,5 @@
-깃헙주소 공유--김지현
+깃헙주소 공유
+
 ================
 
 1.  각자의 깃헙 주소를 공유해 주세요.
@@ -25,7 +26,7 @@
 -   류창균 -
 -   박광용 -
 -   박다솜 -
--   박대훈 -
+-   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
 -   박성화 -
 -   박찬엽 - <https://github.com/mrchypark/>
@@ -34,7 +35,12 @@
 -   양대진 -
 -   원치환 -
 -   윤희철 -
--   전성윤 -
+-   전성윤 - <https://github.com/esmejeon>
 -   정원식 -
+-   원치환 - <https://github.com/CHWON-KR/>
+-   윤희철 - <https://github.com/hihi9008/>
+-   전성윤 - <https://github.com/esmejeon>
+-   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
+-   김정희 - <https://github.com/icomaya/>
