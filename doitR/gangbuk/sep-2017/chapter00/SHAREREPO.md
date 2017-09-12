@@ -37,4 +37,3 @@
 -   정원식 -
 -   조민혁 -
 -   최규선 -
--  노찬형 - <https://github.com/pemakr/>
