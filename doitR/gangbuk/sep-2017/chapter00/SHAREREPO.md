@@ -22,7 +22,7 @@ Github 주소
 
 -   김지현 - <https://github.com/Jiehyunkim/>
 -   노진선 -
--   류창균 -
+-   류창균 - <https://github.com/stephenryu/>
 -   박광용 - <https://github.com/npv-park/>
 -   박다솜 -
 -   박대훈 - <https://github.com/Daehoon-Park/>
