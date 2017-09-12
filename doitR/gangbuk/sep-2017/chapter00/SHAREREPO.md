@@ -17,8 +17,8 @@
     13. PR(pull request)를 진행한다.
     14. 과정 중 모르는 부분은 커뮤니티에 질문한다. [바로가기](https://www.facebook.com/groups/krstudy/?fref=ts)
 
-깃헙 주소
----------
+Github 주소
+-----------
 
 -   김지현 - <https://github.com/Jiehyunkim/>
 -   노진선 -
@@ -43,3 +43,4 @@
 -   조민혁 -
 -   최규선 -
 -   김정희 - <https://github.com/icomaya/>
+
