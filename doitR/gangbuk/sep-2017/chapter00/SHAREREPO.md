@@ -20,7 +20,7 @@
 깃헙 주소
 ---------
 
--   김지현 - <https://github.com/Jiehyunkim/>
+-   김지현 - <https://github.com/Jiehyunkim/> Thank you 
 -   노진선 -
 -   류창균 -
 -   박광용 -
