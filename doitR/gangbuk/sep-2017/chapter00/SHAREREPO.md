@@ -20,6 +20,7 @@
 Github 주소
 -----------
 
+-   라디오
 -   김지현 - <https://github.com/Jiehyunkim/>
 -   노진선 -
 -   류창균 -
@@ -34,10 +35,11 @@ Github 주소
 -   양대진 -
 -   원치환 - <https://github.com/CHWON-KR/>
 -   윤희철 - <https://github.com/hihi9008/>
--   전성윤 -
--   노찬형 - <https://github.com/pemakr>
+-   전성윤 - <https://github.com/esmejeon/>
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 - <https://github.com/mhjoe/>
 -   최규선 - <https://github.com/Gschoi/>
 -   남혜정 - <http://github.com/ringonam/>
 -   허현무 - <https://github.com/vofmwk>
+-   노찬형 - <https://github.com/pemakr/>
+-   김정희 - <https://github.com/icomaya/>    
