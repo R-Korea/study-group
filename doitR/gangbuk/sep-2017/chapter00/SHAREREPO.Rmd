@@ -26,6 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Github 주소
 
+- 라디오
 - 김지현 - <https://github.com/Jiehyunkim/>
 - 노진선 - 
 - 류창균 - 
@@ -40,7 +41,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - 양대진 - 
 - 원치환 - <https://github.com/CHWON-KR/>
 - 윤희철 - <https://github.com/hihi9008/>
-- 전성윤 - 
+- 전성윤 - <https://github.com/esmejeon/>
 - 노찬형 - <https://github.com/pemakr>
 - 정원식 - <https://github.com/1Chic/>
 - 조민혁 - <https://github.com/mhjoe/>
