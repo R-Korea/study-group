@@ -34,22 +34,12 @@
 -   양대진 -
 -   원치환 - <https://github.com/CHWON-KR/>
 -   윤희철 - <https://github.com/hihi9008/>
--   전성윤 - &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+-   전성윤 -
 -   정원식 -
 -   조민혁 -
-<<<<<<< HEAD
 -   최규선 - <https://github.com/Gschoi/>
-    =====================================
-
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 - <https://github.com/mhjoe/>
 -   최규선 - <https://github.com/Gschoi/>
 -   남혜정 - <http://github.com/ringonam/>
-=======
-<<<<<<< HEAD
--   최규선 - <https://github.com/Gschoi/222>
-=======
--   최규선 -
--   김정희 - <https://github.com/icomaya/>
->>>>>>> f4bf731695d6d8b4f1b93fb635cc935aa90c6300
->>>>>>> 502e579eabbfc12149ae9f46df0828b921951fc1
+-   허현무 - <https://github.com/vofmwk>
