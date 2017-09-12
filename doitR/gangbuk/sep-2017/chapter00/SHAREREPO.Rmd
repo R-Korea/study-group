@@ -31,7 +31,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - 류창균 - 
 - 박광용 - 
 - 박다솜 - 
-- 박대훈 - 
+- 박대훈 - <https://github.com/Daehoon-Park/>
 - 박성아 - 
 - 박성화 - 
 - 박찬엽 - <https://github.com/mrchypark/>
@@ -41,7 +41,8 @@ knitr::opts_chunk$set(echo = TRUE)
 - 원치환 - 
 - 윤희철 - 
 - 전성윤 - 
-- 정원식 - 
-- 조민혁 - 
-- 최규선 -    
+- 정원식 - <https://github.com/1Chic/>
+- 조민혁 - <https://github.com/mhjoe/>
+- 최규선 - 
 - 남혜정 - <http://github.com/ringonam/>
+- 허현무 - https://github.com/vofmwk
