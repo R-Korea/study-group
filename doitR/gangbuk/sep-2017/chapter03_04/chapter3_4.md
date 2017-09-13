@@ -62,6 +62,8 @@ a+b+c
 <font color='black', size=4> &gt; 여러개의 값으로 구성된 변수 만들기 </font> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
+# c = combine 
+
 var1 <- c(1,2,5,7,8)     # temp <- 1,2,3,4,5     이렇게 입력하면?
 var1
 
