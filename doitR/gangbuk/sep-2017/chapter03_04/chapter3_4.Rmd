@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font color='black', size=4>  > 변수 'a'에 '1'이라는 값을 할당한다! </font>
  
-![png002](/Users/Gs/Pictures/002.png)
+![png002](002.png)
 <br>
 
 ```{r}

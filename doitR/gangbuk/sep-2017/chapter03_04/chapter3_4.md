@@ -16,7 +16,7 @@ Chapter3. 데이터분석을 위한 연장 챙기기
 
 <font color='black', size=4> &gt; 변수 'a'에 '1'이라는 값을 할당한다! </font>
 
-![png002](/Users/Gs/Pictures/002.png) <br>
+![png002](002.png) <br>
 
 ``` r
 a <- 1   # a에 1을 할당하라
