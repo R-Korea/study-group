@@ -21,8 +21,8 @@ R Korea Study Group R Korea 스터디 그룹 구성
 -   리딩: 안효준 <loveactualry@gmail.com>
 -   내용: 머신러닝 -&gt; (이후는?)
 -   교재: [Introduction to Statistical Learning(ISLR)](http://www-bcf.usc.edu/~gareth/ISL/)
--   진도: 월간 장별 스터디 진행 / 병렬적 / 1차수는 기본 3주 ~ 5주 이내로
-    -   1차: 3장 - Linear Regression
+-   진도: 월간 장별 스터디 진행 / 병렬적 / 1차수는 기본 3주 ~ 5주 이내로
+    -   1차: 3장 - Linear Regression
     -   2차: 4장 - Classification
     -   3차: 5장 - Resampling Methods
     -   4차: 6장 - Linear Model Selection and Regularization
@@ -30,7 +30,7 @@ R Korea Study Group R Korea 스터디 그룹 구성
     -   6차: 8장 - Tree-Based Methods
     -   7차: 9장 - Support Vector Machines
     -   8차: 10장 - Unsupervised Learning
-
+    -   [진도 세부 내용 보러 가기](https://github.com/R-Korea/study-group/tree/master/ISLR/gangnam/sep-2017/chapter00)
 ### 스터디 도구
 
 -   커뮤니케이션: 슬랙
