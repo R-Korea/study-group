@@ -29,8 +29,8 @@ R Korea Study Group R Korea 스터디 그룹 구성
     -   5차: 7장 - Moving Beyond Linearity
     -   6차: 8장 - Tree-Based Methods
     -   7차: 9장 - Support Vector Machines
-    -   8차: 10장 - Unsupervised Learning        
-    -   [진도 세부 내용 보러 가기](https://github.com/R-Korea/study-group/tree/master/ISLR/gangnam/sep-2017/chapter00)        
+    -   8차: 10장 - Unsupervised Learning    
+    -   [진도 세부 내용 보러 가기](https://github.com/R-Korea/study-group/tree/master/ISLR/gangnam/sep-2017/chapter00)         
     
 ### 스터디 도구
 
