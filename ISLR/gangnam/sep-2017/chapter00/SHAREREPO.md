@@ -24,5 +24,7 @@
 -   이준남 - <https://github.com/JunnamLee/>
 -   김선호 - <https://github.com/ksseono/>
 -   황효성 - <https://github.com/hyoseonghwang/>
+-   송민구 - <https://github.com/minkSong/>
 -   배병선 - <https://github.com/ByungSunBae/>
 -   주성호 - <https://github.com/jooseongho/>
+
