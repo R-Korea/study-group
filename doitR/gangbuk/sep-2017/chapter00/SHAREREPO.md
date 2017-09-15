@@ -21,10 +21,10 @@ Github 주소
 -----------
 
 - 김지현 - <https://github.com/Jiehyunkim/>
-- 노진선 - 
+- 노진선 - <https://github.com/Southjin/>
 - 류창균 - <https://github.com/stephenryu/>
 - 박광용 - <https://github.com/npv-park/>
-- 박다솜 - 
+- 박다솜 - <https://github.com/Dasom-Park/>
 - 박대훈 - <https://github.com/Daehoon-Park/>
 - 박성아 - <https://github.com/Seongah-Park/>
 - 박성화 - 
