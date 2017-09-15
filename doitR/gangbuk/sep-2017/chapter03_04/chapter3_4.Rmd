@@ -5,7 +5,9 @@ output: github_document
 <br> 
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE)
+
 ```
 
 ## Chapter3. 데이터분석을 위한 연장 챙기기  
@@ -23,19 +25,25 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ```{r}
+
 a <- 1   # a에 1을 할당하라
+
 ```
 
 <font color='black', size=4>  > 반응이 없다? </font>
 
 ```{r}
+
 a    # a를 보여줘
+
 ```
 
 <font color='black', size=4>  > 또는 </font>
 
 ```{r}
+
 print(a)    
+
 ```
 
 <font color='blue', size=4>  > quiz! : 출력된 ## [1] 1에서 '[1]'은 어떤 의미일까요? </font>
@@ -45,6 +53,7 @@ print(a)
 <br>
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
 ```{r, echo=TRUE, eval=FALSE}
+
 a <- 1
 b <- 2
 c <- 3
@@ -53,6 +62,7 @@ a+b
 a+b+c
 4/b
 5*b
+
 ```
 
 <font color='blue', size=4>  > 변수명은 영문으로 시작 <br> > 대소문자 구분<br> > 숫자/ -/ _ 의 조합가능<br> > 한글명은 지양 </font>
@@ -61,6 +71,7 @@ a+b+c
 <font color='black', size=4>  > 여러개의 값으로 구성된 변수 만들기 </font>
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
 ```{r, echo=TRUE, eval=FALSE}
+
 # c = combine 
 
 var1 <- c(1,2,5,7,8)     # temp <- 1,2,3,4,5     이렇게 입력하면?
@@ -81,17 +92,84 @@ var1 + 2
 var1                     # 조금전에 'var1 + 2'을 했었는데 왜 var1의 값은 변하지 않고 그대로일까?
 var2
 var1 + var2
+
 ```
 <br>
 <font color='blue', size=4>  > quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 ```{r, echo=TRUE, eval=FALSE}
+
 temp1 <- c(1,2)
 temp2 <- c(1,1,1,1,1)
 
 temp1 + temp2
+
 ```
 <br>
 <font color='blue', size=4>  > quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 ```{r, echo=TRUE, eval=FALSE}
+
 temp3 <- rep(1, 5)
+
 ```
+
+<br>
+<font color='black', size=4>  > 문자로 된 변수만들기 </font> <br>
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+```{r, echo=TRUE, eval=FALSE}
+
+srt1 <- 'a'             # ''와 ""는 동일
+str1
+
+str2 <- 'text'
+str2
+
+str3 <- 'hello world'
+str3
+
+b <- 1; c <- '1'
+b; c                  # 무엇이 다를까요?
+
+```
+
+<br>
+<font color='blue', size=4>  > 어떻게 될까요? </font> <br>
+
+```{r, echo=TRUE, eval=FALSE}
+
+str1 <- 'a'             # str <- a 라고 하시면 안됩니다. 왜?
+
+str1 + 1                # 어떻게 될까요?
+
+```
+
+<p> <br> 
+ 
+<font color='red', size=5> 
+03-2. 함수 이해하기
+</font>
+
+<br> 
+
+<font color='black', size=4>  > '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
+ 
+![png002](003.png)
+<p>
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+```{r, echo=TRUE, eval=FALSE}
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

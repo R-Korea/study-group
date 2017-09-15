@@ -98,3 +98,40 @@ temp1 + temp2
 ``` r
 temp3 <- rep(1, 5)
 ```
+
+<br> <font color='black', size=4> &gt; 문자로 된 변수만들기 </font> <br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+
+``` r
+srt1 <- 'a'             # ''와 ""는 동일
+str1
+
+str2 <- 'text'
+str2
+
+str3 <- 'hello world'
+str3
+
+b <- 1; c <- '1'
+b; c                  # 무엇이 다를까요?
+```
+
+<br> <font color='blue', size=4> &gt; 어떻게 될까요? </font> <br>
+
+``` r
+str1 <- 'a'             # str <- a 라고 하시면 안됩니다. 왜?
+
+str1 + 1                # 어떻게 될까요?
+```
+
+<p>
+<br>
+
+<font color='red', size=5> 03-2. 함수 이해하기 </font>
+
+<br>
+
+<font color='black', size=4> &gt; '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
+
+![png002](003.png)
+<p>
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
