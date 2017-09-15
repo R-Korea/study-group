@@ -20,11 +20,12 @@
 깃헙 주소
 ---------
 
+-   박성광 - <https://github.com/parksung>
 -   김지현 - <https://github.com/Jiehyunkim/>
 -   노진선 - <https://github.com/Southjin/>
 -   류창균 -
 -   박광용 -
--   박다솜 -
+-   박다솜 - <https://github.com/Dasom-Park/>
 -   박대훈 - <https://github.com/Daehoon-Park/>
 -   박성아 -
 -   박성화 -
@@ -38,3 +39,4 @@
 -   정원식 - <https://github.com/1Chic/>
 -   조민혁 -
 -   최규선 -
+-   김정희 - <https://github.com/icomaya/>
