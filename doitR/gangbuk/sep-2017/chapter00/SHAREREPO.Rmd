@@ -26,6 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 깃헙 주소
 
+- 박성광 - <https://github.com/parksung>
 - 김지현 - <https://github.com/Jiehyunkim/>
 - 노진선 - 
 - 류창균 - 
@@ -45,3 +46,4 @@ knitr::opts_chunk$set(echo = TRUE)
 - 조민혁 - 
 - 최규선 -    
 - 김대원 - <https://github.com/d-won>
+- 김정희 - <https://github.com/icomaya/>
