@@ -22,7 +22,7 @@
 
 -   박성광 - <https://github.com/parksung>
 -   김지현 - <https://github.com/Jiehyunkim/>
--   노진선 - <http://github.com/Southjin/>
+-   노진선 - <https://github.com/Southjin/>
 -   류창균 -
 -   박광용 -
 -   박다솜 - <https://github.com/Dasom-Park/>
@@ -40,4 +40,3 @@
 -   조민혁 -
 -   최규선 -
 -   김정희 - <https://github.com/icomaya/>
-
