@@ -23,6 +23,22 @@ knitr::opts_chunk$set(echo = TRUE)
  
 ![png002](002.png)
 <br>
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+```{r, echo=TRUE, eval=FALSE}
+
+# 함수의 결과를 새 변수에 담기
+
+x <- 1:100
+
+mean(x)
+
+x_mean <- mean(x)
+x_mean
+
+str5_paste <- paste(str5, collapse = " ")
+str5_paste
+
+```
 
 ```{r}
 
@@ -163,6 +179,7 @@ x
 mean(x)
 max(x)
 min(x)
+sum(x)
 
 x
 
@@ -208,6 +225,186 @@ str5_paste
 <font color='black', size=4>  > 패키지 : 함수가 여러 개 들어 있는 꾸러미 </font>
  
 ![png004](004.png)
+<p>
+<font color='black', size=4>  > ggplot2 패키지 설치하기, 로드하기 </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 함수의 결과를 새 변수에 담기
+
+install.packages("ggplot2")  # ggplot2 패키지 설치
+
+library(ggplot2)             # ggplot2 패키지 로드
+
+```
+
+<br>
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 여러 문자로 구성된 변수 생성
+x <- c("a", "a", "b", "c")
+x
+
+# 빈도 그래프 출력
+qplot(x)
+
+# 
+data("mpg")
+str(mpg)
+help(mpg)
+
+# data에 mpg, x축에 hwy 변수 지정하여 그래프 생성
+qplot(data = mpg, x = hwy)       
+
+# x축 cty
+qplot(data = mpg, x = cty)
+
+# qplot(data = mpg, x = hwy, bins = 10)   # 그래프가 어떻게 그려질까요?
+# qplot(data = mpg, x = hwy, binwidth = 1)   # 그래프가 어떻게 그려질까요?
+
+# x축 drv, y축 hwy
+qplot(data = mpg, x = drv, y = hwy)
+
+# x축 drv, y축 hwy, 선 그래프 형태
+qplot(data = mpg, x = drv, y = hwy, geom = "line")
+
+# x축 drv, y축 hwy, 상자 그림 형태
+qplot(data = mpg, x = drv, y = hwy, geom = "boxplot")
+
+# x축 drv, y축 hwy, 상자 그림 형태, drv별 색 표현
+qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
+
+# 함수의 기능이 궁금할 땐 Help 함수를 활용해 보세요
+?qplot
+
+```
+
+<br>
+<font color='black', size=4>  > 연습문제 </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 다섯 명의 학생이 시험을 봤습니다. 
+# 학생 다섯 명의 시험 점수를 담고 있는 변수를 만들어 출력해 보세요. 
+# 각 학생의 시험 점수는 다음과 같습니다.
+# 50, 60, 70, 80, 90
+
+# 1번
+# 'score1'이라는 변수에 5명의 시험점수를 담으세요.
+
+# 2번 
+# 'score2'라는 변수에 5명 [학생들의 평균점수, 최고 점수, 최저 점수] 3개의 값을 담으시오.
+
+score1
+score2
+
+```
+
+## Chapter4. 데이터 프레임의 세계로!
+<br> 
+ 
+<font color='red', size=5> 
+04-1. 데이터 프레임 이해하기  
+</font>
+
+<br> 
+<br> 
+
+<font color='black', size=4>  > '행'은 한 사람의 정보, '열'은 속성 </font>
+ 
+![png005](005.png)
+
+<font color='black', size=4>  > 데이터가 크다 = 행이 많다 또는 열이 많다 </font>
+ 
+![png006](006.png)
+
+<br> 
+ 
+<font color='red', size=5> 
+04-2. 데이터 프레임 만들기  
+</font>
+
+<br> 
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 데이터 입력해 데이터 프레임 만들기
+
+english <- c(90, 80, 60, 70)  # 영어 점수 변수 생성
+english
+
+math <- c(50, 60, 100, 20)    # 수학 점수 변수 생성
+math
+
+# english, math로 데이터 프레임 생성해서 df_midterm에 할당
+df_midterm <- data.frame(english, math)
+df_midterm
+
+str(df_midterm)
+
+```
+<br> 
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+class <- c(1, 1, 2, 2)
+class
+
+df_midterm <- data.frame(english, math, class)    
+df_midterm                                        # 앞서 만든 'df_midterm'는 어떻게 되었나?
+
+str(df_midterm)
+
+mean(df_midterm$english)  # df_midterm의 english로 평균 산출
+
+mean(df_midterm$math)     # df_midterm의 math로 평균 산술
+
+```
+
+<br> 
+<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 데이터 프레임 한 번에 만들기
+
+df_midterm <- data.frame(english = c(90, 80, 60, 70),
+                         math = c(50, 60, 100, 20),
+                         class = c(1, 1, 2, 2))
+df_midterm
+
+```
+
+<br>
+<font color='black', size=4>  > 연습문제 </font>
+
+```{r, echo=TRUE, eval=FALSE}
+
+# 1번
+# 사과는 가격 1800원, 판매량 24개 
+# 딸기는 가격 1500원, 판매량 38개 
+# 수박은 가격 3000원, 판매량 13개 
+# 위 데이터로 '과일', '가격', 판매량'을 행이름으로 하는 'sales'라는 이름의 데이터 프레임을 만들어 보세요~
+# ('원, '개' 등의 단위는 생략)
+
+# 2번
+# 과일 가격평균과 판매량 평균을 구해보세요~
+
+# 3번 
+# 총 매출액은 얼마입니까?
+
+```
+
+
+
+
+
+
+
 
 
 
