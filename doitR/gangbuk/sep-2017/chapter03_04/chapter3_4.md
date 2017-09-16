@@ -9,13 +9,13 @@ Chapter3. 데이터분석을 위한 연장 챙기기
 <p>
 <br>
 
-#### 03-1. 변수 만들기
+### 03-1. 변수 만들기
 
 <br>
 
-<font color='black', size=4> &gt; 변수 'a'에 '1'이라는 값을 할당한다! </font>
+#### &gt; 변수 'a'에 '1'이라는 값을 할당한다!
 
-![png002](002.png) <br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+![png002](002.png) <br> \#\#\#\# &gt; 아래의 코드를 입력하고 실행해보세요~
 
 ``` r
 # 함수의 결과를 새 변수에 담기
@@ -31,21 +31,21 @@ str5_paste <- paste(str5, collapse = " ")
 str5_paste
 ```
 
-<font color='black', size=4> &gt; 반응이 없다? </font>
+#### &gt; 반응이 없다?
 
     ## [1] 1
 
-<font color='black', size=4> &gt; 또는 </font>
+### &gt; 또는
 
     ## [1] 1
 
-<font color='blue', size=4> &gt; quiz! : 출력된 \#\# \[1\] 1에서 '\[1\]'은 어떤 의미일까요? </font>
+#### &gt; quiz! : 출력된 \#\# \[1\] 1에서 '\[1\]'은 어떤 의미일까요?
 
 ``` r
 #
 ```
 
-<br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<br> \#\#\# &gt; 아래의 코드를 입력하고 실행해보세요~
 
 ``` r
 a <- 1
@@ -58,9 +58,13 @@ a+b+c
 5*b
 ```
 
-<font color='blue', size=4> &gt; 변수명은 영문으로 시작 <br> &gt; 대소문자 구분<br> &gt; 숫자/ -/ \_ 의 조합가능<br> &gt; 한글명은 지양 </font> <br>
+#### &gt; 변수명은 영문으로 시작 <br> &gt; 대소문자 구분<br> &gt; 숫자/ -/ \_ 의 조합가능<br> &gt; 한글명은 지양
 
-<font color='black', size=4> &gt; 여러개의 값으로 구성된 변수 만들기 </font> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<br>
+
+#### &gt; 여러개의 값으로 구성된 변수 만들기
+
+#### &gt; 아래의 코드를 입력하고 실행해보세요~
 
 ``` r
 # c = combine 

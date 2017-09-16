@@ -13,16 +13,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Chapter3. 데이터분석을 위한 연장 챙기기  
 <p> <br> 
  
-#### 03-1. 변수 만들기  
-
-
+### 03-1. 변수 만들기  
 <br> 
 
-<font color='black', size=4>  > 변수 'a'에 '1'이라는 값을 할당한다! </font>
+#### > 변수 'a'에 '1'이라는 값을 할당한다! 
  
 ![png002](002.png)
 <br>
-<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+#### > 아래의 코드를 입력하고 실행해보세요~ 
 ```{r, echo=TRUE, eval=FALSE}
 
 # 함수의 결과를 새 변수에 담기
@@ -45,7 +43,7 @@ a <- 1   # a에 1을 할당하라
 
 ```
 
-<font color='black', size=4>  > 반응이 없다? </font>
+#### > 반응이 없다? 
 
 ```{r}
 
@@ -53,7 +51,7 @@ a    # a를 보여줘
 
 ```
 
-<font color='black', size=4>  > 또는 </font>
+### > 또는 
 
 ```{r}
 
@@ -61,12 +59,12 @@ print(a)
 
 ```
 
-<font color='blue', size=4>  > quiz! : 출력된 ## [1] 1에서 '[1]'은 어떤 의미일까요? </font>
+####  > quiz! : 출력된 ## [1] 1에서 '[1]'은 어떤 의미일까요? 
 ```{r, echo=TRUE, eval=FALSE}
 #
 ```
 <br>
-<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+### > 아래의 코드를 입력하고 실행해보세요~ 
 ```{r, echo=TRUE, eval=FALSE}
 
 a <- 1
@@ -80,11 +78,13 @@ a+b+c
 
 ```
 
-<font color='blue', size=4>  > 변수명은 영문으로 시작 <br> > 대소문자 구분<br> > 숫자/ -/ _ 의 조합가능<br> > 한글명은 지양 </font>
+####  > 변수명은 영문으로 시작 <br> > 대소문자 구분<br> > 숫자/ -/ _ 의 조합가능<br> > 한글명은 지양 
 <br> 
 
-<font color='black', size=4>  > 여러개의 값으로 구성된 변수 만들기 </font>
-<font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
+####  > 여러개의 값으로 구성된 변수 만들기  
+
+####  > 아래의 코드를 입력하고 실행해보세요~  
+
 ```{r, echo=TRUE, eval=FALSE}
 
 # c = combine 
