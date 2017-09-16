@@ -9,8 +9,7 @@ Chapter3. 데이터분석을 위한 연장 챙기기
 <p>
 <br>
 
-<font color='red', size=5> 03-1. 변수 만들기
-</font>
+#### 03-1. 변수 만들기
 
 <br>
 
@@ -32,23 +31,11 @@ str5_paste <- paste(str5, collapse = " ")
 str5_paste
 ```
 
-``` r
-a <- 1   # a에 1을 할당하라
-```
-
 <font color='black', size=4> &gt; 반응이 없다? </font>
-
-``` r
-a    # a를 보여줘
-```
 
     ## [1] 1
 
 <font color='black', size=4> &gt; 또는 </font>
-
-``` r
-print(a)    
-```
 
     ## [1] 1
 

@@ -6,16 +6,15 @@ output: github_document
 
 ```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
 ## Chapter3. 데이터분석을 위한 연장 챙기기  
 <p> <br> 
  
-<font color='red', size=5> 
-03-1. 변수 만들기  
-</font>
+#### 03-1. 변수 만들기  
+
 
 <br> 
 
