@@ -132,6 +132,57 @@ str1 + 1                # 어떻게 될까요?
 
 <font color='black', size=4> &gt; '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
 
-![png002](003.png)
+![png003](003.png)
 <p>
 <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+
+``` r
+x <- c(1,2,3)              # 연속된 숫자 1,2,3을 입력하는 다른 방법은?
+x
+
+mean(x)
+max(x)
+min(x)
+
+x
+```
+
+<br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+
+``` r
+str5 <- c('Hello!', 'World', 'is', 'good!')
+str5
+
+paste(str5, collapse = ',')   # 쉼표로 구분된 str5의 단어들 하나로 합치기
+
+paste(str5, collapse = ' ') 
+```
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+
+``` r
+# 함수의 결과를 새 변수에 담기
+
+x <- 1:100
+
+mean(x)
+
+x_mean <- mean(x)
+x_mean
+
+str5_paste <- paste(str5, collapse = " ")
+str5_paste
+```
+
+<p>
+<br>
+
+<font color='red', size=5> 03-3. 함수 꾸러미, 패키지 이해하기 </font>
+
+<br>
+
+<font color='black', size=4> &gt; 패키지 : 함수가 여러 개 들어 있는 꾸러미 </font>
+
+![png004](004.png)
