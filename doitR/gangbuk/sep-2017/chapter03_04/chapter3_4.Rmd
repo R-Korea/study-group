@@ -16,7 +16,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ### 03-1. 변수 만들기  
 <br> 
 
-<p>
+<p>  
+
 #### > 변수 'a'에 '1'이라는 값을 할당한다! 
  
 ![png002](002.png)
