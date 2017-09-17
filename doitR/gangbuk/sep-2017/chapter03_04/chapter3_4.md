@@ -237,7 +237,7 @@ str5_paste
 <p>
 <br>
 
-### &gt; ggplot2 패키지 설치하기, 로드하기 <br>
+#### &gt; ggplot2 패키지 설치하기, 로드하기 <br>
 
 ``` r
 # 함수의 결과를 새 변수에 담기
@@ -291,7 +291,7 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 <br>
 
-#### <span style="color:red"> &gt; 연습문제 </span> <br>
+#### <span style="color:red"> 연습문제 </span> <br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
