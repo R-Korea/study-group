@@ -20,13 +20,18 @@
 Github 주소
 -----------
 
+- 김대원 - <https://github.com/d-won>
+- 김정희 - https://github.com/icomaya/
 - 김지현 - <https://github.com/Jiehyunkim/>
-- 노진선 - <https://github.com/Southjin/>
+- 남혜정 - <http://github.com/ringonam/>
+- 노진선 - 
+- 노찬형 - <https://github.com/pemakr>
 - 류창균 - <https://github.com/stephenryu/>
 - 박광용 - <https://github.com/npv-park/>
 - 박다솜 - <https://github.com/Dasom-Park/>
 - 박대훈 - <https://github.com/Daehoon-Park/>
 - 박성아 - <https://github.com/Seongah-Park/>
+- 박성광 - <https://github.com/parksung>
 - 박성화 - 
 - 박찬엽 - <https://github.com/mrchypark/>
 - 서승우 - <https://github.com/steveseo75/>
@@ -35,10 +40,7 @@ Github 주소
 - 원치환 - <https://github.com/CHWON-KR/>
 - 윤희철 - <https://github.com/hihi9008/>
 - 전성윤 - <https://github.com/esmejeon/>
-- 노찬형 - <https://github.com/pemakr>
 - 정원식 - <https://github.com/1Chic/>
 - 조민혁 - <https://github.com/mhjoe/>
-- 최규선 - <https://github.com/Gschoi/>    
-- 남혜정 - <http://github.com/ringonam/>
+- 최규선 - <https://github.com/Gschoi/>  
 - 허현무 - <https://github.com/vofmwk>
-- 김정희 - https://github.com/icomaya/
