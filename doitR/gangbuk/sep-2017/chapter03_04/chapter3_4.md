@@ -177,7 +177,7 @@ str1 + 1                # 어떻게 될까요?
 <p>
 <br>
 
-### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 x <- c(1,2,3)              # 연속된 숫자 1,2,3을 입력하는 다른 방법은?
@@ -291,7 +291,7 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 <br>
 
-#### &gt; 연습문제 <br>
+#### <span style="color:red"> &gt; 연습문제 </span> <br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
