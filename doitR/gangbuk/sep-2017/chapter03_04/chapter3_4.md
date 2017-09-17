@@ -96,7 +96,9 @@ var2
 var1 + var2
 ```
 
-<br> <font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
+<br>
+
+<font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 
 ``` r
 temp1 <- c(1,2)
@@ -105,13 +107,19 @@ temp2 <- c(1,1,1,1,1)
 temp1 + temp2
 ```
 
-<br> <font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
+<br>
+
+<font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 
 ``` r
 temp3 <- rep(1, 5)
 ```
 
-<br> <font color='black', size=4> &gt; 문자로 된 변수만들기 </font> <br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<br>
+
+<font color='black', size=4> &gt; 문자로 된 변수만들기 </font> <br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
 srt1 <- 'a'             # ''와 ""는 동일
@@ -127,7 +135,9 @@ b <- 1; c <- '1'
 b; c                  # 무엇이 다를까요?
 ```
 
-<br> <font color='blue', size=4> &gt; 어떻게 될까요? </font> <br>
+<br>
+
+<font color='blue', size=4> &gt; 어떻게 될까요? </font> <br>
 
 ``` r
 str1 <- 'a'             # str <- a 라고 하시면 안됩니다. 왜?
@@ -210,7 +220,9 @@ install.packages("ggplot2")  # ggplot2 패키지 설치
 library(ggplot2)             # ggplot2 패키지 로드
 ```
 
-<br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
 # 여러 문자로 구성된 변수 생성
