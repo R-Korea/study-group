@@ -233,7 +233,7 @@ str5_paste
 
 <p>
 <br>
-![png004](004.png)
+![png004](004-1.png)
 <p>
 <br>
 
