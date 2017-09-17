@@ -121,7 +121,7 @@ var1 + var2
 <p>
 <br>
 
-<font color='blue', size=4> quiz! : 아래 코드를 실행하면 어떻게 될까요? </font> <br>
+#### &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? <br>
 
 ``` r
 temp1 <- c(1,2)
@@ -133,7 +133,7 @@ temp1 + temp2
 <p>
 <br>
 
-<font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
+#### &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? <br>
 
 ``` r
 temp3 <- rep(1, 5)
@@ -142,9 +142,9 @@ temp3 <- rep(1, 5)
 <p>
 <br>
 
-<font color='black', size=4> &gt; 문자로 된 변수만들기 </font> <br>
+#### &gt; 문자로 된 변수만들기 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 srt1 <- 'a'             # ''와 ""는 동일
@@ -163,7 +163,7 @@ b; c                  # 무엇이 다를까요?
 <p>
 <br>
 
-<font color='blue', size=4> &gt; 어떻게 될까요? </font> <br>
+#### &gt; 어떻게 될까요? <br>
 
 ``` r
 str1 <- 'a'             # str <- a 라고 하시면 안됩니다. 왜?
@@ -174,18 +174,17 @@ str1 + 1                # 어떻게 될까요?
 <p>
 <br>
 
-<font color='red', size=5> 03-2. 함수 이해하기 </font>
+### 03-2. 함수 이해하기
 
 <p>
 <br>
-
-<font color='black', size=4> &gt; '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
+\#\#\#\# &gt; '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 <br>
 
 ![png003](003.png)
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 x <- c(1,2,3)              # 연속된 숫자 1,2,3을 입력하는 다른 방법은?
@@ -202,7 +201,7 @@ x
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 str5 <- c('Hello!', 'World', 'is', 'good!')
@@ -216,7 +215,7 @@ paste(str5, collapse = ' ')
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 # 함수의 결과를 새 변수에 담기
@@ -235,12 +234,12 @@ str5_paste
 <p>
 <br>
 
-<font color='red', size=5> 03-3. 함수 꾸러미, 패키지 이해하기 </font>
+03-3. 함수 꾸러미, 패키지 이해하기 <br>
+---------------------------------------
 
 <p>
 <br>
-
-<font color='black', size=4> &gt; 패키지 : 함수가 여러 개 들어 있는 꾸러미 </font>
+\#\#\# &gt; 패키지 : 함수가 여러 개 들어 있는 꾸러미 <br>
 
 <p>
 <br>
@@ -248,7 +247,7 @@ str5_paste
 <p>
 <br>
 
-<font color='black', size=4> &gt; ggplot2 패키지 설치하기, 로드하기 </font>
+### &gt; ggplot2 패키지 설치하기, 로드하기 <br>
 
 ``` r
 # 함수의 결과를 새 변수에 담기
@@ -261,7 +260,7 @@ library(ggplot2)             # ggplot2 패키지 로드
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 # 여러 문자로 구성된 변수 생성
@@ -304,7 +303,7 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 <p>
 <br>
 
-<font color='black', size=4> &gt; 연습문제 </font>
+#### &gt; 연습문제 <br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
@@ -325,19 +324,17 @@ score2
 <p>
 <br>
 
-Chapter4. 데이터 프레임의 세계로!
----------------------------------
+Chapter4. 데이터 프레임의 세계로! <br>
+--------------------------------------
 
 <p>
 <br>
 
-<font color='red', size=5> 04-1. 데이터 프레임 이해하기
-</font>
+### 04-1. 데이터 프레임 이해하기 <br>
 
 <p>
 <br>
-
-<font color='black', size=4> &gt; '행'은 한 사람의 정보, '열'은 속성 </font>
+\#\#\# &gt; '행'은 한 사람의 정보, '열'은 속성 <br>
 
 <p>
 <br>
@@ -346,23 +343,21 @@ Chapter4. 데이터 프레임의 세계로!
 <p>
 <br>
 
-<font color='black', size=4> &gt; 데이터가 크다 = 행이 많다 또는 열이 많다 </font>
+#### &gt; 데이터가 크다 = 행이 많다 또는 열이 많다 <br>
 
 <p>
 <br>
 
 ![png006](006.png)
+<p>
+<br>
+
+### 04-2. 데이터 프레임 만들기
 
 <p>
 <br>
 
-<font color='red', size=5> 04-2. 데이터 프레임 만들기
-</font>
-
-<p>
-<br>
-
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 # 데이터 입력해 데이터 프레임 만들기
@@ -383,7 +378,7 @@ str(df_midterm)
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 class <- c(1, 1, 2, 2)
@@ -402,7 +397,7 @@ mean(df_midterm$math)     # df_midterm의 math로 평균 산술
 <p>
 <br>
 
-<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
 
 ``` r
 # 데이터 프레임 한 번에 만들기
@@ -416,7 +411,7 @@ df_midterm
 <p>
 <br>
 
-<font color='black', size=4> &gt; 연습문제 </font>
+#### &gt; 연습문제 <br>
 
 ``` r
 # 1번
