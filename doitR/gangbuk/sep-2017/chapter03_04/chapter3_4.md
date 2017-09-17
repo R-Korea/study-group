@@ -290,9 +290,7 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 <br>
 
-\#\#\#\# <span style="color:red"> 연습문제 </span>
-</style>
-<br>
+<span style="color:red"> 연습문제 </span> <br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
@@ -412,4 +410,86 @@ df_midterm
 
 # 3번 
 # 총 매출액은 얼마입니까?
+```
+
+<p>
+<br>
+
+### 04-3. 외부 데이터 이용하기
+
+<p>
+<br>
+
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
+
+[&gt;&gt;&gt; (click) xlsx file download link &lt;&lt;&lt;](https://github.com/Gschoi/Doit_R/blob/master/Data/excel_exam.xlsx) <br>
+
+``` r
+# 엑셀 파일 불러오기
+
+# readxl 패키지 설치
+install.packages("readxl")
+
+# readxl 패키지 로드
+library(readxl)
+
+df_exam <- read_excel("excel_exam.xlsx")              # workding directory에 파일이 있을 경우
+df_exam <- read_excel("d:/easy_r/excel_exam.xlsx")
+
+# 참고
+# df_exam_novar <- read_excel("excel_exam_novar.xlsx", col_names = F)
+# df_exam_sheet <- read_excel("excel_exam_sheet.xlsx", sheet = 3)
+
+# df_csv_exam <- read.csv("csv_exam.csv")
+# df_csv_exam <- read.csv("csv_exam.csv", stringsAsFactors = F)
+
+df_exam      
+
+str(df_exam)
+head(df_exam, 5)
+
+mean(df_exam$english)
+mean(df_exam$science)
+```
+
+<br>
+
+#### &gt; 데이터 프레임을 CSV 파일로 저장하기 <br>
+
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
+
+``` r
+df_midterm <- data.frame(english = c(90, 80, 60, 70),
+                         math = c(50, 60, 100, 20),
+                         class = c(1, 1, 2, 2))
+df_midterm
+
+write.csv(df_midterm, file = "df_midterm.csv")   # 어디에 저장될까요?
+```
+
+<br>
+
+#### &gt; 데이터 프레임을 RData 파일로 저장하기 <br>
+
+#### &gt; 아래의 코드를 입력하고 실행해보세요~ <br>
+
+``` r
+save(df_midterm, file = "df_midterm.Rdata")
+
+rm(df_midterm)      #  메모리에 있는 'df_midterm' 객체를 삭제
+df_midterm
+
+load("df_midterm.Rdata")   # 별도의 변수 할당이 필요 없음
+df_midterm
+```
+
+<br>
+
+#### &gt; quiz <br>
+
+``` r
+# 작업중에 생성된 데이터 객체가 한두개가 아닌데...
+# 한꺼번에 저장하고 다음에 한번에 저장할 수 있는 방법은 없나요?
+
+# ?save, 도움을 찾아보세요~
 ```
