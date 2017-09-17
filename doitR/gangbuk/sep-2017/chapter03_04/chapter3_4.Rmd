@@ -48,6 +48,7 @@ a <- 1   # a에 1을 할당하라
 
 ```
 <br>  
+
 #### > 반응이 없다?   <br>
 ```{r, echo=TRUE, eval=FALSE}
 
