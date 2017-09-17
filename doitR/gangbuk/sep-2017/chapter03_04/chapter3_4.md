@@ -121,7 +121,7 @@ var1 + var2
 <p>
 <br>
 
-<font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font> <br>
+<font color='blue', size=4> quiz! : 아래 코드를 실행하면 어떻게 될까요? </font> <br>
 
 ``` r
 temp1 <- c(1,2)
