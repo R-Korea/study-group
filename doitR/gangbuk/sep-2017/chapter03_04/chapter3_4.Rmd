@@ -45,16 +45,14 @@ str5_paste
 a <- 1   # a에 1을 할당하라
 
 ```
-<br>  
-
+  
 #### > 반응이 없다?   
 ```{r, echo=TRUE, eval=FALSE}
 
 a    # a를 보여줘
 
 ```
-<br>  
-
+  
 #### > 또는   
 ```{r, echo=TRUE, eval=FALSE}
 
