@@ -290,7 +290,9 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 <br>
 
-#### <span style="color:red"> 연습문제 </span> <br>
+\#\#\#\# <span style="color:red"> 연습문제 </span>
+</style>
+<br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
@@ -320,7 +322,8 @@ Chapter4. 데이터 프레임의 세계로! <br>
 ### 04-1. 데이터 프레임 이해하기 <br>
 
 <br>
-\#\#\#\# &gt; '행'은 한 사람의 정보, '열'은 속성 <br>
+
+#### &gt; '행'은 한 사람의 정보, '열'은 속성 <br>
 
 <p>
 <br>
