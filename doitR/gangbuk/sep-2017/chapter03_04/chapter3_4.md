@@ -77,7 +77,7 @@ a+b+c
 <p>
 <br>
 
-#### -&gt; `변수명은 영문으로 시작` <br> -&gt; `대소문자 구분`<br> -&gt; `숫자/ -/ _ 의 조합가능`<br> -&gt; `한글명은 지양` <br>
+#### -&gt; `변수명은 영문으로 시작` <br> -&gt; `대소문자 구분`<br> -&gt; `[숫자]/[-]/[_]의 조합가능`<br> -&gt; `한글명은 지양` <br>
 
 <p>
 <br>
@@ -286,7 +286,7 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 <br>
 
-<span style="color:red"> 연습문제 </span> <br>
+#### &gt; 연습문제 <br>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
