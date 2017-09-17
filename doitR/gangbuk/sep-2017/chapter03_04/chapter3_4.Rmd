@@ -39,13 +39,15 @@ str5_paste <- paste(str5, collapse = " ")
 str5_paste
 
 ```
+<p><br> 
 
 ```{r}
 
 a <- 1   # a에 1을 할당하라
 
 ```
-<p>
+<p><br>  
+
 #### > 반응이 없다? 
 
 ```{r}
@@ -83,10 +85,12 @@ a+b+c
 
 ```
 
-<br> 
+<p><br>   
+
 ####  > 변수명은 영문으로 시작 <br> > 대소문자 구분<br> > 숫자/ -/ _ 의 조합가능<br> > 한글명은 지양 
 
-<p><br> 
+<p><br>  
+
 ###  > 여러개의 값으로 구성된 변수 만들기  
 
 ####  > 아래의 코드를 입력하고 실행해보세요~  
@@ -115,7 +119,7 @@ var2
 var1 + var2
 
 ```
-<br>  
+<p><br>  
 
 <font color='blue', size=4>  > quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 ```{r, echo=TRUE, eval=FALSE}
@@ -126,7 +130,7 @@ temp2 <- c(1,1,1,1,1)
 temp1 + temp2
 
 ```
-<br>  
+<p><br>  
 
 <font color='blue', size=4>  > quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
 ```{r, echo=TRUE, eval=FALSE}
@@ -135,7 +139,7 @@ temp3 <- rep(1, 5)
 
 ```
 
-<br>  
+<p><br>  
 
 <font color='black', size=4>  > 문자로 된 변수만들기 </font> <br>  
 
@@ -157,7 +161,8 @@ b; c                  # 무엇이 다를까요?
 
 ```
 
-<br>  
+<p><br>  
+
 
 <font color='blue', size=4>  > 어떻게 될까요? </font> <br>  
 
@@ -170,18 +175,18 @@ str1 + 1                # 어떻게 될까요?
 
 ```
 
-<p> <br> 
- 
+<p><br>  
+
 <font color='red', size=5> 
 03-2. 함수 이해하기
 </font>
 
-<br> 
+<p><br>  
 
 <font color='black', size=4>  > '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
  
 ![png003](003.png)
-<p>  
+<p><br>  
 
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>  
 
@@ -198,7 +203,7 @@ sum(x)
 x
 
 ```
-<br>  
+<p><br>  
 
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>  
 
@@ -212,7 +217,8 @@ paste(str5, collapse = ',')   # 쉼표로 구분된 str5의 단어들 하나로 
 paste(str5, collapse = ' ') 
 
 ```
-  
+
+<p><br>    
   
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>  
 
@@ -231,19 +237,18 @@ str5_paste <- paste(str5, collapse = " ")
 str5_paste
 
 ```
-<p> <br> 
+<p><br>  
 
  
 <font color='red', size=5> 03-3. 함수 꾸러미, 패키지 이해하기 </font>  
 
-
-<br> 
+<p><br>  
 
 <font color='black', size=4>  > 패키지 : 함수가 여러 개 들어 있는 꾸러미 </font>  
 
- 
+<p><br>  
 ![png004](004.png)
-<p>  
+<p><br>  
 
 <font color='black', size=4>  > ggplot2 패키지 설치하기, 로드하기 </font>  
 
@@ -258,7 +263,7 @@ library(ggplot2)             # ggplot2 패키지 로드
 
 ```
 
-<br>  
+<p><br>  
 
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>  
 
@@ -303,7 +308,8 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 
 ```
 
-<br>
+<p><br>  
+
 <font color='black', size=4>  > 연습문제 </font>
 
 ```{r, echo=TRUE, eval=FALSE}
@@ -323,32 +329,42 @@ score1
 score2
 
 ```
+  
+  
+<p><br>  
 
-## Chapter4. 데이터 프레임의 세계로!
-<br> 
+## Chapter4. 데이터 프레임의 세계로!  
+
+<p><br>  
  
 <font color='red', size=5> 
 04-1. 데이터 프레임 이해하기  
 </font>
 
-<br> 
-<br> 
+<p><br>  
 
-<font color='black', size=4>  > '행'은 한 사람의 정보, '열'은 속성 </font>
- 
+<font color='black', size=4>  > '행'은 한 사람의 정보, '열'은 속성 </font> 
+
+<p><br>  
+
 ![png005](005.png)
+<p><br>  
 
-<font color='black', size=4>  > 데이터가 크다 = 행이 많다 또는 열이 많다 </font>
+<font color='black', size=4>  > 데이터가 크다 = 행이 많다 또는 열이 많다 </font>  
+
+ <p><br>  
  
-![png006](006.png)
+![png006](006.png)  
 
-<br> 
+
+<p><br>  
  
 <font color='red', size=5> 
 04-2. 데이터 프레임 만들기  
-</font>
+</font>  
 
-<br> 
+<p><br>  
+
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ```{r, echo=TRUE, eval=FALSE}
@@ -368,7 +384,8 @@ df_midterm
 str(df_midterm)
 
 ```
-<br> 
+<p><br>  
+
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ```{r, echo=TRUE, eval=FALSE}
@@ -387,7 +404,8 @@ mean(df_midterm$math)     # df_midterm의 math로 평균 산술
 
 ```
 
-<br> 
+<p><br>  
+
 <font color='black', size=4>  > 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ```{r, echo=TRUE, eval=FALSE}
@@ -401,7 +419,8 @@ df_midterm
 
 ```
 
-<br>
+<p><br>  
+
 <font color='black', size=4>  > 연습문제 </font>
 
 ```{r, echo=TRUE, eval=FALSE}

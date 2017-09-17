@@ -39,6 +39,11 @@ str5_paste
 ```
 
 <p>
+<br>
+
+<p>
+<br>
+
 #### &gt; 반응이 없다?
 
     ## [1] 1
@@ -68,10 +73,15 @@ a+b+c
 5*b
 ```
 
-<br> \#\#\#\# &gt; 변수명은 영문으로 시작 <br> &gt; 대소문자 구분<br> &gt; 숫자/ -/ \_ 의 조합가능<br> &gt; 한글명은 지양
+<p>
+<br>
+
+#### &gt; 변수명은 영문으로 시작 <br> &gt; 대소문자 구분<br> &gt; 숫자/ -/ \_ 의 조합가능<br> &gt; 한글명은 지양
 
 <p>
-<br> \#\#\# &gt; 여러개의 값으로 구성된 변수 만들기
+<br>
+
+### &gt; 여러개의 값으로 구성된 변수 만들기
 
 #### &gt; 아래의 코드를 입력하고 실행해보세요~
 
@@ -98,6 +108,7 @@ var2
 var1 + var2
 ```
 
+<p>
 <br>
 
 <font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
@@ -109,6 +120,7 @@ temp2 <- c(1,1,1,1,1)
 temp1 + temp2
 ```
 
+<p>
 <br>
 
 <font color='blue', size=4> &gt; quiz! : 아래 코드를 실행하면 어떻게 될까요? </font>
@@ -117,6 +129,7 @@ temp1 + temp2
 temp3 <- rep(1, 5)
 ```
 
+<p>
 <br>
 
 <font color='black', size=4> &gt; 문자로 된 변수만들기 </font> <br>
@@ -137,6 +150,7 @@ b <- 1; c <- '1'
 b; c                  # 무엇이 다를까요?
 ```
 
+<p>
 <br>
 
 <font color='blue', size=4> &gt; 어떻게 될까요? </font> <br>
@@ -152,12 +166,15 @@ str1 + 1                # 어떻게 될까요?
 
 <font color='red', size=5> 03-2. 함수 이해하기 </font>
 
+<p>
 <br>
 
 <font color='black', size=4> &gt; '평균을 구하는 함수'에 데이터를 지정하면 평균이 계산되어 나온다 </font>
 
 ![png003](003.png)
 <p>
+<br>
+
 <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
@@ -172,6 +189,7 @@ sum(x)
 x
 ```
 
+<p>
 <br>
 
 <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
@@ -184,6 +202,9 @@ paste(str5, collapse = ',')   # 쉼표로 구분된 str5의 단어들 하나로 
 
 paste(str5, collapse = ' ') 
 ```
+
+<p>
+<br>
 
 <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
@@ -206,12 +227,17 @@ str5_paste
 
 <font color='red', size=5> 03-3. 함수 꾸러미, 패키지 이해하기 </font>
 
+<p>
 <br>
 
 <font color='black', size=4> &gt; 패키지 : 함수가 여러 개 들어 있는 꾸러미 </font>
 
+<p>
+<br>
 ![png004](004.png)
 <p>
+<br>
+
 <font color='black', size=4> &gt; ggplot2 패키지 설치하기, 로드하기 </font>
 
 ``` r
@@ -222,6 +248,7 @@ install.packages("ggplot2")  # ggplot2 패키지 설치
 library(ggplot2)             # ggplot2 패키지 로드
 ```
 
+<p>
 <br>
 
 <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
@@ -264,7 +291,10 @@ qplot(data = mpg, x = drv, y = hwy, geom = "boxplot", colour = drv)
 ?qplot
 ```
 
-<br> <font color='black', size=4> &gt; 연습문제 </font>
+<p>
+<br>
+
+<font color='black', size=4> &gt; 연습문제 </font>
 
 ``` r
 # 다섯 명의 학생이 시험을 봤습니다. 
@@ -282,30 +312,47 @@ score1
 score2
 ```
 
+<p>
+<br>
+
 Chapter4. 데이터 프레임의 세계로!
 ---------------------------------
 
+<p>
 <br>
 
 <font color='red', size=5> 04-1. 데이터 프레임 이해하기
 </font>
 
-<br> <br>
+<p>
+<br>
 
 <font color='black', size=4> &gt; '행'은 한 사람의 정보, '열'은 속성 </font>
 
+<p>
+<br>
+
 ![png005](005.png)
+<p>
+<br>
 
 <font color='black', size=4> &gt; 데이터가 크다 = 행이 많다 또는 열이 많다 </font>
 
+<p>
+<br>
+
 ![png006](006.png)
 
+<p>
 <br>
 
 <font color='red', size=5> 04-2. 데이터 프레임 만들기
 </font>
 
-<br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<p>
+<br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
 # 데이터 입력해 데이터 프레임 만들기
@@ -323,7 +370,10 @@ df_midterm
 str(df_midterm)
 ```
 
-<br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<p>
+<br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
 class <- c(1, 1, 2, 2)
@@ -339,7 +389,10 @@ mean(df_midterm$english)  # df_midterm의 english로 평균 산출
 mean(df_midterm$math)     # df_midterm의 math로 평균 산술
 ```
 
-<br> <font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
+<p>
+<br>
+
+<font color='black', size=4> &gt; 아래의 코드를 입력하고 실행해보세요~ </font>
 
 ``` r
 # 데이터 프레임 한 번에 만들기
@@ -350,7 +403,10 @@ df_midterm <- data.frame(english = c(90, 80, 60, 70),
 df_midterm
 ```
 
-<br> <font color='black', size=4> &gt; 연습문제 </font>
+<p>
+<br>
+
+<font color='black', size=4> &gt; 연습문제 </font>
 
 ``` r
 # 1번
