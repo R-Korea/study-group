@@ -7,11 +7,11 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1. 각자의 깃헙 주소를 공유해 주세요. 
-    1. <https://github.com/mrchypark/study-gruop> 이 주소에 간다. (group 이 아니라 gruop 인 것을 주의!)
+1. 각자의 깃헙 주소를 공유해 주세요.    
+    1. <https://github.com/R-Korea/study-group> 이 주소에 간다.    
     1. FORK를 수행한다.
     1. 각자의 계정에 해당하는 주소(` https://github.com/계정주소/study-gruop`)를 이용해서 r project를 만든다.
-    1. ./study-gruop/r4ds-basic/gangbuk/sep-2017 폴더로 이동한다.
+    1. ./study-gruop/ISLR/gangnam/sep-2017/chapter00 폴더로 이동한다.
     1. SHAREREPO.Rmd 파일을 연다.
     1. 자신의 이름 옆에 깃헙 주소(`https://github.com/계정주소`)를 추가하고 저장한다.
     1. Knit 버튼을 눌러 md 파일을 생성한다.
@@ -23,17 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
     1. PR(pull request)를 진행한다.
     1. 과정 중 모르는 부분은 커뮤니티에 질문한다. [바로가기](https://www.facebook.com/groups/krstudy/?fref=ts)
     
-
 ## 깃헙 주소
 
-- 김지현 - 
-- 노진선 - 
-- 류창균 - 
-- 박광용 - 
-- 박다솜 - 
-- 박대훈 - 
-- 박성아 - 
-- 박성화 - 
 - 박찬엽 - <https://github.com/mrchypark/>
 - 서승우 - 
 - 양대진 - 
@@ -43,4 +34,11 @@ knitr::opts_chunk$set(echo = TRUE)
 - 정원식 - 
 - 조민혁 - 
 - 최규선 -    
-- 김나영 - https://github.com/nora6989/study-gruop/
+- 김나영 - <https://github.com/nora6989/study-gruop/>
+- 이준남 - <https://github.com/JunnamLee/>
+- 김선호 - <https://github.com/ksseono/>
+- 황효성 - <https://github.com/hyoseonghwang/>
+- 송민구 - <https://github.com/minkSong/>
+- 배병선 - <https://github.com/ByungSunBae/>
+- 하헌철 - <https://github.com/Curycu/>
+- 안효준 - <https://github.com/hyojunahn/>
