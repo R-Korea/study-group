@@ -1,0 +1,62 @@
+---
+title: "Packages"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## 목록
+
+```{r eval=FALSE}
+library()
+
+installed.packages()
+installed.packages()[,c("Package","Version")]
+```
+
+## 설치
+
+```{r eval=FALSE}
+install.packages("dplyr")
+```
+
+```{r eval=FALSE}
+install.packages("devtools")
+# devtools::install_github("username/packagename")
+devtools::install_github("tidyverse/dplyr")
+```
+
+## 삭제
+
+```{r eval=FALSE}
+remove.packages("dplyr")
+```
+
+## 사용
+```{r eval=FALSE}
+library(dplyr)
+```
+
+
+```{r eval=FALSE}
+if(!require(dplyr)) {
+  install.packages("dplyr")
+  library(dplyr)
+}
+```
+
+## 업데이트
+
+```{r eval=FALSE}
+old.packages()
+#update.packages()
+update.packages(ask = FALSE)
+```
+
+## 확인
+
+```{r eval=FALSE}
+available.packages()
+```
+
