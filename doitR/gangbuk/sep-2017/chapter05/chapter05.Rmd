@@ -1,0 +1,188 @@
+---
+title: "5장 데이타 분석 기초"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- 05-1 -->
+## 05-1 데이터 파악하기
+
+함수      | 기능
+-         | - 
+head()    | 데이터 앞부분 출력
+tail()    | 데이터 뒷부분 출력
+View()    | 뷰어 창에서 데이터 확인
+dim()     | 데이터 차원 출력
+str()     | 데이터 속성 출력
+summary() | 요약 통계량 출력 
+
+
+<!-- 05-1 -->
+***
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(ggplot2)
+mpg <- as.data.frame(ggplot2::mpg)
+```
+
+```{r echo=TRUE}
+head(mpg) # 앞에서부터 6행 출력
+```
+
+```{r echo=TRUE}
+head(mpg, 2) # 앞에서부터 2행 출력
+```
+
+
+<!-- 05-1 -->
+***
+```{r echo=TRUE}
+tail(mpg) # 뒤에서부터 6행 출력
+```
+
+```{r echo=TRUE}
+tail(mpg, 2) # 뒤에서부터 2행 출력
+```
+
+
+<!-- 05-1 -->
+***
+```{r echo=TRUE, eval=FALSE}
+View(mpg) # 데이타뷰어창에서 확인
+```
+
+![](View.png)
+
+
+<!-- 05-1 -->
+***
+```{r echo=TRUE}
+dim(mpg) # 행, 열 출력
+```
+
+```{r echo=TRUE}
+str(mpg) # 데이터 속성 확인
+```
+
+
+<!-- 05-1 -->
+***
+```{r echo=TRUE}
+summary(mpg) # 행, 열 출력
+```
+
+<div class="notes">
+출력값 | 통계량 | 설명
+-      | -      | -
+Min    | 최솟값(Minimun) | 가장작은값
+1st Qu | 1사분위수(1st Quantile) | 하위 25%(4분의 1)지점에 위치한 값
+Median | 중앙값(Median) | 중앙에 위치하는 값
+Mean   | 평균값(Mean) | 모든 값을 더해 값의 개수로 나눈 값
+3rd Qu | 3사분위수(3rd Quantile) | 하위 75%(4분의 3)지점에 위치한 값
+Max    | 최댓값(Maximum) | 가장 큰 값
+</div>
+
+
+<!-- 05-2 -->
+## 05-2 변수명 바꾸기
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+library(dplyr)
+```
+
+```{r echo=TRUE}
+mpg_rename <- rename(mpg, city = cty)
+str(mpg_rename)
+```
+
+
+***
+```{r echo=TRUE}
+colnames(mpg_rename)
+```
+
+```{r echo=TRUE}
+colnames(mpg_rename)[9] <- "highway"
+colnames(mpg_rename)
+```
+
+
+<!-- 05-3 -->
+## 05-3 파생변수 만들기
+
+```{r echo=TRUE}
+mpg$total <- ( mpg$cty + mpg$hwy ) / 2 # 통합 연비 변수 생성 
+head(mpg)
+```
+
+
+<!-- 05-3 -->
+***
+```{r echo=TRUE}
+mean(mpg$total)
+summary(mpg$total)
+```
+
+***
+```{r echo=TRUE}
+hist(mpg$total)
+```
+
+***
+```{r echo=TRUE}
+mpg$test <- ifelse(mpg$total > 20, "pass", "fail")
+head(mpg)
+```
+
+***
+```{r echo=TRUE}
+table(mpg$test) # 빈도표 출력
+```
+
+***
+```{r echo=TRUE}
+qplot(mpg$test) # 막대 그래프 생성 
+```
+
+## 분석도전 p123
+> ggplot2의 midwest 데이터를 데이터 프레임 형태로 불러온 다음 데이터의 특징을 파악하세요
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+library(ggplot2)
+midwest <- as.data.frame(ggplot2::midwest)
+str(midwest)
+```
+
+***
+> poptotal(전체인구) 변수를 total로, popasian(아시아 인구) 변수를 asian으로 수정하세요
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+library(dplyr)
+midwest_new <- rename(midwest, total = poptotal, asian = popasian)
+str(midwest_new)
+```
+
+***
+> total, asian 변수를 이용해 '전체 인구 대비 아시아 인구 백분율' 파생변수를 만들고 히스토그램을 만들어 도시들이 어떻게 분포하는지 살펴보세요
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+midwest_new$ratio <- midwest_new$asian / midwest_new$total * 100
+hist(midwest_new$ratio)
+```
+
+***
+> 아시아 인구 백분율 전체 평균을 구하고, 평균을 초과하면 "large", 그 외에는 "small"을 부여하는 파생변수를 만들어 보세요.
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+midwest_new_ratio_mean <- mean(midwest_new$ratio)
+midwest_new$group <- ifelse(midwest_new$ratio > midwest_new_ratio_mean, "large", "small")
+```
+
+> "large"와 "small"에 해당하는 지역이 얼마나 되는지 빈도표와 빈도 막대 그래프를 만들어 확인해 보세요
+
+```{r message=FALSE, warning=FALSE, echo=TRUE}
+table(midwest_new$group)
+qplot(midwest_new$group)
+```

@@ -1,0 +1,18 @@
+---
+title: "5장 데이타 분석 기초!"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## [데이타 파악하기, 다루기 쉽게 수정하기](chapter05.md)
+
+  - 일시: 2017년 9월 26일 화요일, 7시 30분 ~
+  - 장소: 토즈 신촌비즈센터 
+  - 교재: 쉽게 배우는 R 데이터 분석
+
+### [github fork 후 원본과 sync](forksync.md)
+### [git process](process.md)
+### [package](package.md)
