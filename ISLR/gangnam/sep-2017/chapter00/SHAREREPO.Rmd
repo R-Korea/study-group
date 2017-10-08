@@ -26,6 +26,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 깃헙 주소
 
 - 박찬엽 - <https://github.com/mrchypark/>
+- 서승우 - 
+- 양대진 - 
+- 원치환 - 
+- 윤희철 - 
+- 전성윤 - 
+- 정원식 - 
+- 조민혁 - 
+- 최규선 -    
+- 김나영 - <https://github.com/nora6989/study-gruop/>
 - 이준남 - <https://github.com/JunnamLee/>
 - 김선호 - <https://github.com/ksseono/>
 - 황효성 - <https://github.com/hyoseonghwang/>
@@ -33,4 +42,3 @@ knitr::opts_chunk$set(echo = TRUE)
 - 배병선 - <https://github.com/ByungSunBae/>
 - 하헌철 - <https://github.com/Curycu/>
 - 안효준 - <https://github.com/hyojunahn/>
-
