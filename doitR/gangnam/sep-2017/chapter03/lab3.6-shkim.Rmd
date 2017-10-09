@@ -156,5 +156,13 @@ lm.fit1 = update(lm.fit, ~.-age)
 ```
 
 
+## 3.6.4 Interaction Terms
+
+* include an interaction term
+
+```{r}
+# lstat*age: lstat, age, lstat x age
+summary(lm(medv~lstat*age, data=Boston))
+```
 
 
