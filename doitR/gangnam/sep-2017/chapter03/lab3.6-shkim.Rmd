@@ -1,0 +1,254 @@
+---
+title: "Lab 3.6"
+outhor: "Seonho Kim<ksseono@gmail.com>"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## 3.6.1 Libraries
+
+* load libraries
+
+```{r}
+# install.packages("ISLR")
+# install.packages("MASS")
+library(ISLR)
+library(MASS)
+```
+
+## 3.6.2 Simple Linear Regression
+
+* `Boston` dataset
+
+```{r}
+fix(Boston)
+names(Boston)
+```
+
+* fit a simple linear regreesion model
+
+```{r}
+# response: medv / predictor: lstat / dataset: Boston
+lm.fit = lm(medv~lstat, data=Boston)
+
+# model information
+lm.fit
+```
+
+```{r}
+summary(lm.fit)
+```
+
+```{r}
+names(lm.fit)
+```
+
+```{r}
+coef(lm.fit)
+```
+
+* obtain a confidence interval for the coefficient
+
+```{r}
+confint(lm.fit) 
+```
+
+* produce 95% confidence/prediction intervals for the prediction (medv~lstat)
+
+```{r}
+predict(lm.fit, data.frame(lstat=c(5, 10, 15)), interval="confidence")
+predict(lm.fit, data.frame(lstat=c(5, 10, 15)), interval="prediction")
+```
+
+* plot the least squares regressin line
+
+```{r}
+attach(Boston)
+plot(lstat, medv)
+abline(lm.fit)
+```
+
+```{r}
+plot(lstat, medv)
+abline(lm.fit, lwd=3)
+```
+
+```{r}
+plot(lstat, medv)
+abline(lm.fit, lwd=3, col="red")
+```
+
+```{r}
+plot(lstat, medv, col="red")
+```
+
+```{r}
+plot(lstat, medv, pch=20)
+```
+
+```{r}
+plot(lstat, medv, pch="+")
+```
+
+```{r}
+plot(1:20, 1:20, pch=1:20)
+```
+
+* diagnostic plots
+
+```{r}
+par(mfrow=c(2,2)) # split the screen
+plot(lm.fit)
+```
+
+* residuals
+
+```{r}
+par(mfrow=c(1,2))
+plot(predict(lm.fit), residuals(lm.fit))
+plot(predict(lm.fit), rstudent(lm.fit))
+```
+
+* leverage statistics
+
+```{r}
+plot(hatvalues(lm.fit))
+which.max(hatvalues(lm.fit))
+```
+
+
+## 3.6.3 Multiple Linear Regression
+
+* fit a multiple linear regression model 
+
+```{r}
+lm.fit = lm(medv~lstat+age, data=Boston)
+summary(lm.fit)
+```
+
+* perform a regression using all of the predictors with short-hand
+
+```{r}
+lm.fit= lm(medv~., data=Boston)
+summary(lm.fit)
+```
+
+* compute VIF(variance inflation factors) using car package
+
+```{r}
+# install.packages("car")
+library(car)
+vif(lm.fit)
+```
+
+* regression using all predictors except `age`
+
+```{r}
+lm.fit1 = lm(medv~.-age, data=Boston)
+summary(lm.fit1)
+
+# alternative way: using update() function
+lm.fit1 = update(lm.fit, ~.-age)
+```
+
+
+## 3.6.4 Interaction Terms
+
+* include an interaction term
+
+```{r}
+# lstat*age: lstat, age, lstat x age
+summary(lm(medv~lstat*age, data=Boston))
+```
+
+
+## 3.6.5 Non-linear Transformations of the Predictors
+
+* perform a regression of medv onto `lstat` and `lstat^2` with function `I()`
+
+```{r}
+lm.fit2 = lm(medv~lstat+I(lstat^2))
+summary(lm.fit2)
+```
+
+* use the `anova()` function to quantify which is superior to the linear fit
+
+```{r}
+lm.fit = lm(medv~lstat)
+anova(lm.fit, lm.fit2)
+
+# => lm.fit2(containing lstat^2) is far superior
+```
+
+```{r}
+par(mfrow=c(2,2))
+plot(lm.fit2)
+```
+
+* create the polynomial within `lm()`
+
+```{r}
+# produces a fifth-order ploynomial fit
+lm.fit5 = lm(medv~poly(lstat, 5))
+summary(lm.fit5)
+```
+
+* log transformation
+
+```{r}
+summary(lm(medv~log(rm), data=Boston))
+```
+
+
+## 3.6.6 Qualitative Predictors
+
+* `Carseats` data
+
+```{r}
+library(ISLR)
+fix(Carseats)
+names(Carseats)
+```
+
+
+* fit a multiple regression model
+  * includes some interaction term
+  * generates dummy variables automatically for `ShelveLoc` by R: `ShelveLocGood`, `ShelveLocMedium`
+  
+```{r}
+lm.fit = lm(Sales~.+Income:Advertising+Price:Age, data=Carseats)
+summary(lm.fit)
+```
+
+* dummay variables
+
+```{r}
+attach(Carseats)
+contrasts(ShelveLoc)
+```
+
+
+## 3.6.7 Writing Functions
+
+* create a function: `LoadLibraries()`
+```{r}
+LoadLibraries = function() {
+  library(ISLR)
+  library(MASS)
+  print("The libraries have been loaded.")
+}
+```
+
+```{r}
+LoadLibraries
+```
+
+```{r}
+LoadLibraries()
+```
+
+
