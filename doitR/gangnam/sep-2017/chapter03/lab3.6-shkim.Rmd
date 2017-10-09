@@ -120,3 +120,41 @@ plot(hatvalues(lm.fit))
 which.max(hatvalues(lm.fit))
 ```
 
+
+## 3.6.3 Multiple Linear Regression
+
+* fit a multiple linear regression model 
+
+```{r}
+lm.fit = lm(medv~lstat+age, data=Boston)
+summary(lm.fit)
+```
+
+* perform a regression using all of the predictors with short-hand
+
+```{r}
+lm.fit= lm(medv~., data=Boston)
+summary(lm.fit)
+```
+
+* compute VIF(variance inflation factors) using car package
+
+```{r}
+# install.packages("car")
+library(car)
+vif(lm.fit)
+```
+
+* regression using all predictors except age
+
+```{r}
+lm.fit1 = lm(medv~.-age, data=Boston)
+summary(lm.fit1)
+
+# alternative way: using update() function
+lm.fit1 = update(lm.fit, ~.-age)
+```
+
+
+
+
