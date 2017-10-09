@@ -145,7 +145,7 @@ library(car)
 vif(lm.fit)
 ```
 
-* regression using all predictors except age
+* regression using all predictors except `age`
 
 ```{r}
 lm.fit1 = lm(medv~.-age, data=Boston)
@@ -163,6 +163,44 @@ lm.fit1 = update(lm.fit, ~.-age)
 ```{r}
 # lstat*age: lstat, age, lstat x age
 summary(lm(medv~lstat*age, data=Boston))
+```
+
+
+## 3.6.5 Non-linear Transformations of the Predictors
+
+* perform a regression of medv onto `lstat` and `lstat^2` with function `I()`
+
+```{r}
+lm.fit2 = lm(medv~lstat+I(lstat^2))
+summary(lm.fit2)
+```
+
+* use the `anova()` function to quantify which is superior to the linear fit
+
+```{r}
+lm.fit = lm(medv~lstat)
+anova(lm.fit, lm.fit2)
+
+# => lm.fit2(containing lstat^2) is far superior
+```
+
+```{r}
+par(mfrow=c(2,2))
+plot(lm.fit2)
+```
+
+* create the polynomial within `lm()`
+
+```{r}
+# produces a fifth-order ploynomial fit
+lm.fit5 = lm(medv~poly(lstat, 5))
+summary(lm.fit5)
+```
+
+* log transformation
+
+```{r}
+summary(lm(medv~log(rm), data=Boston))
 ```
 
 
