@@ -232,3 +232,23 @@ contrasts(ShelveLoc)
 ```
 
 
+## 3.6.7 Writing Functions
+
+* create a function: `LoadLibraries()`
+```{r}
+LoadLibraries = function() {
+  library(ISLR)
+  library(MASS)
+  print("The libraries have been loaded.")
+}
+```
+
+```{r}
+LoadLibraries
+```
+
+```{r}
+LoadLibraries()
+```
+
+
