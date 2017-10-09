@@ -22,7 +22,7 @@ library(MASS)
 
 ## 3.6.2 Simple Linear Regression
 
-* Boston dataset
+* `Boston` dataset
 
 ```{r}
 fix(Boston)
@@ -201,6 +201,34 @@ summary(lm.fit5)
 
 ```{r}
 summary(lm(medv~log(rm), data=Boston))
+```
+
+
+## 3.6.6 Qualitative Predictors
+
+* `Carseats` data
+
+```{r}
+library(ISLR)
+fix(Carseats)
+names(Carseats)
+```
+
+
+* fit a multiple regression model
+  * includes some interaction term
+  * generates dummy variables automatically for `ShelveLoc` by R: `ShelveLocGood`, `ShelveLocMedium`
+  
+```{r}
+lm.fit = lm(Sales~.+Income:Advertising+Price:Age, data=Carseats)
+summary(lm.fit)
+```
+
+* dummay variables
+
+```{r}
+attach(Carseats)
+contrasts(ShelveLoc)
 ```
 
 
