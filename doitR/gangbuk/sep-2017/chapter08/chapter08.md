@@ -60,6 +60,22 @@ ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point()
 
 ![png](08_03.png)
 
+##### 회귀선 그리기
+
+``` r
+ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + stat_smooth(method=lm, se=F)
+```
+
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png)
+
+##### 신뢰구가 95% 영역 표시
+
+``` r
+ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + stat_smooth(method=lm, level=0.99)
+```
+
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png)
+
 #### 3. 축 범위 설정
 
 ##### x축 범위 xlim(), y축 범위 ylim()
@@ -69,7 +85,7 @@ ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point()
 ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + xlim(3,6) + ylim(10,30)
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
 
 ##### + 기호 다음에 엔터키로 줄을 바꾸면 가독성을 높일 수 있음
 
@@ -110,7 +126,7 @@ df_mpg
 ggplot(data=df_mpg, aes(x=drv, y=mean_hwy)) + geom_col()
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)
 
 ### 3. 크기 순 정렬
 
@@ -123,7 +139,7 @@ ggplot(data=df_mpg, aes(x=drv, y=mean_hwy)) + geom_col()
 ggplot(data=df_mpg, aes(x=reorder(drv, -mean_hwy), y=mean_hwy)) + geom_col()
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-9-1.png)
 
 08-3\_1. 빈도 막대 그래프
 -------------------------
@@ -136,7 +152,7 @@ ggplot(data=df_mpg, aes(x=reorder(drv, -mean_hwy), y=mean_hwy)) + geom_col()
 ggplot(data=mpg, aes(x=drv)) + geom_bar()
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-10-1.png)
 
 08-4. 선 그래프
 ---------------
@@ -152,7 +168,7 @@ ggplot(data=mpg, aes(x=drv)) + geom_bar()
 ggplot(data=economics, aes(x=date, y=unemploy)) + geom_line()
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-9-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-11-1.png)
 
 08-5. 상자 그래프
 -----------------
@@ -166,6 +182,6 @@ ggplot(data=economics, aes(x=date, y=unemploy)) + geom_line()
 ggplot(data=mpg, aes(x=drv, y=hwy)) + geom_boxplot()
 ```
 
-![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-10-1.png)
+![](chapter08_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-12-1.png)
 
 ![png](08_04.png)
