@@ -59,6 +59,18 @@ ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point()
 ![png](08_03.png)
 
 
+
+##### 회귀선 그리기
+```{r, warning=F, message=F}
+ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + stat_smooth(method=lm, se=F)
+```
+
+##### 신뢰구가 95% 영역 표시
+```{r, warning=F, message=F}
+ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + stat_smooth(method=lm, level=0.99)
+```
+
+
 #### 3. 축 범위 설정
 
 ##### x축 범위 xlim(), y축 범위 ylim()
