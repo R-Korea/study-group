@@ -1,6 +1,5 @@
 ---
 title: "Lab 2.3"
-outhor: "Seonho Kim<ksseono@gmail.com>"
 output: github_document
 ---
 

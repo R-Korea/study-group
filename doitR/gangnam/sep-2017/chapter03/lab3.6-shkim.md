@@ -1,5 +1,6 @@
 Lab 3.6
 ================
+Seonho Kim<ksseono@gmail.com>
 
 3.6.1 Libraries
 ---------------
