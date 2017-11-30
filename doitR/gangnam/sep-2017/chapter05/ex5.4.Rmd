@@ -1,0 +1,148 @@
+---
+title: "ex5.4"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Conceptual - ex 5.4.2
+
+#### (a)
+
+* first boostrap observation `is not` the jth observation from the original sample.
+
+```{}
+=> 1 - 1/n
+```
+
+#### (b)
+
+* second boostrap observation `is not` the jth observation from the original sample.
+
+```{}
+same as (a)
+=> 1 - 1/n  
+```
+
+#### (c)
+
+* jth observation `is not` in the boostrap samples.
+
+```{}
+(1 - 1/n) x (1 - 1/n) x .... x (1 - 1/n) = (1 - 1/n)^n
+```
+
+
+
+#### (d)
+
+* when n=5, probability that the jth observation `is` in the bootstrap sample.
+
+```{}
+1 - (c) when n=5 
+=> 1 - (1 - 1/n)^n => 1 - (1 - 1/5)^5 = 0.672
+```
+
+
+#### (e)
+
+```{}
+same process as (d) when n=100
+=> 1 - (1 - 1/100)^100 = 0.634
+```
+
+
+#### (f)
+
+```{}
+# same process as (d) when n=10000
+=> 1 - (1 - 1/10000)^10000 = 0.632
+```
+
+
+#### (g)
+
+```{r}
+x = 1:100000
+plot(x, 1 - (1 - 1/x)^x)
+# => 0.632 에가깝게수렴
+```
+
+
+#### (h)
+
+```{r}
+store = rep(NA, 10000)
+for(i in 1:10000) {
+  store[i] = sum(sample(1:100, rep=TRUE)==4) > 0 # 각 sample셋이 4를포함하는지 여부
+}
+mean(store)
+```
+
+```{}
+lim(1 + x/n)^n = e^x when n->inf.
+1 - e^(-1) = 0.632
+```
+
+
+## Applied - ex 5.4.7
+
+#### (a)
+
+```{r}
+library(ISLR)
+set.seed(1)
+attach(Weekly)
+glm.fits = glm(Direction~Lag1+Lag2, data = Weekly, family = binomial)
+summary(glm.fits)
+```
+
+
+#### (b)
+
+```{r}
+glm.fits.1 = glm(Direction~Lag1+Lag2, data = Weekly[-1,], family = binomial)
+summary(glm.fits.1)
+```
+
+
+#### (c)
+
+```{r}
+predict.glm(glm.fits.1, Weekly[1,], type="response") > 0.5
+```
+
+```{r}
+Weekly[1,]$Direction
+# not correctly classified.
+```
+
+
+#### (d)
+
+```{r}
+cnt = dim(Weekly)[1]
+error <- rep(0, cnt)
+
+for (i in 1:cnt) {
+  glm.fit = glm(Direction~Lag1+Lag2, data = Weekly[-i,], family = binomial)
+  
+  pred.up = predict.glm(glm.fit, Weekly[i,], type="response") > 0.5
+  true.up = Weekly[i,]$Direction == "Up"
+  
+  if(pred.up != true.up)
+    error[i] <- 1
+}
+
+error
+```
+
+#### (e)
+
+```{r}
+mean(error)
+# test error rate = 0.4499 (45%)
+```
+
